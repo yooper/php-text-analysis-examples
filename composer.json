@@ -1,0 +1,5 @@
+{
+    "require": {
+        "php-text-analysis/php-text-analysis": "1.0.*@dev"
+    }
+}
