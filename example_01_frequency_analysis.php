@@ -38,7 +38,7 @@ $freqDist = new \TextAnalysis\Analysis\FreqDist($tokens);
 /**
  * Get the top 10 most used words in Tom Sawyer 
  */
-$top10 = array_splice($freqDist->getKeyValues(), 0, 10);
+$top10 = array_splice($freqDist->getKeyValuesByFrequency(), 0, 10);
 
 
 /** 

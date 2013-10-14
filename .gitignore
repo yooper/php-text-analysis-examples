@@ -1,3 +1,4 @@
 nbproject/
 composer.lock
 pub/pages/*.html
+vendor/
